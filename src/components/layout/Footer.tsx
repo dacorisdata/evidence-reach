@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import { brand } from '@/theme/tokens';
 import { site } from '@/content/site';
 import { footerNav } from '@/content/nav';
@@ -24,7 +25,7 @@ export default function Footer() {
           gap: { xs: 5, md: 4 },
         }}
       >
-        <Box sx={{ flex: '1 1 280px', minWidth: 0, maxWidth: 320 }}>
+        <Box sx={{ flex: '2 1 280px', minWidth: 0, maxWidth: 360, mr: { md: 'auto' } }}>
           <Wordmark onDark />
           <Typography sx={{ color: brand.footerSoft, fontSize: '0.9rem', lineHeight: 1.7, mt: 2.5, mb: 3 }}>
             {site.description}
@@ -42,11 +43,15 @@ export default function Footer() {
               <CallOutlinedIcon sx={{ fontSize: 17, color: brand.green }} />
               <Typography sx={{ color: brand.footerSoft, fontSize: '0.85rem' }}>{site.phone}</Typography>
             </Box>
+            <Box component="a" href={site.websiteHref} target="_blank" rel="noopener noreferrer" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              <LanguageOutlinedIcon sx={{ fontSize: 17, color: brand.green }} />
+              <Typography sx={{ color: brand.footerSoft, fontSize: '0.85rem' }}>{site.website}</Typography>
+            </Box>
           </Box>
         </Box>
 
         {footerNav.map((column) => (
-          <Box key={column.title} sx={{ flex: '1 1 160px', minWidth: 0 }}>
+          <Box key={column.title} sx={{ flex: '0 1 180px', minWidth: 140 }}>
             <Typography
               variant="overline"
               sx={{ color: 'rgba(255,255,255,0.4)', display: 'block', mb: 2 }}

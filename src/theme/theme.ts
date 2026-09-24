@@ -122,7 +122,7 @@ const theme = createTheme({
       },
       styleOverrides: {
         root: {
-          borderRadius: 999,
+          borderRadius: 5,
           paddingInline: 26,
           paddingBlock: 12,
           fontSize: '0.96rem',

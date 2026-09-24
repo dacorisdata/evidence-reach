@@ -11,9 +11,10 @@ export const hero = {
   secondaryCta: { label: 'See the platform', href: '/platform' },
   trust: ['Human-approved AI', 'Regional hosting', 'A DACORIS Group product'],
   scrollLabel: 'Scroll to explore',
+  // Photo by UK Black Tech on Unsplash
   image: {
-    src: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2400&q=80',
-    alt: 'Illuminated city networks across the globe at night, representing reach and connection',
+    src: 'https://images.unsplash.com/photo-1653565685060-e15e492a7fda?auto=format&fit=crop&w=2400&q=80',
+    alt: 'A presenter addressing a small team gathered around a whiteboard, following along as findings are walked through',
   },
 } as const;
 
@@ -106,8 +107,9 @@ export const impactTeaser = {
     'EvidenceReach connects a published output to the decisions, citations and institutional actions that follow it.',
   href: '/platform/impact',
   cta: 'See impact intelligence',
+  // Photo by Ninthgrid on Unsplash
   image: {
-    src: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80',
+    src: 'https://images.unsplash.com/photo-1739298061740-5ed03045b280?auto=format&fit=crop&w=1200&q=80',
     alt: 'Working session reviewing programme results',
   },
   cards: [
@@ -130,7 +132,7 @@ export const audiencesTeaser = {
   eyebrow: 'Who it is for',
   title: 'Built for public-sector and knowledge-intensive institutions.',
   intro:
-    'Six client groups share the same gap: evidence exists, but the path to use is broken. DER carries it from source to decision.',
+    'These institutions share the same gap: evidence exists, but the path to use is broken. DER carries it from source to decision.',
   href: '/solutions',
   cta: 'Explore solutions',
   items: [
@@ -147,22 +149,10 @@ export const audiencesTeaser = {
       image: photo('statsPublications', 900),
     },
     {
-      title: 'NGOs and implementers',
-      body: 'Evaluations and learning products that serve accountability first, then improvement.',
-      href: '/solutions/ngos',
-      image: photo('fieldTeam', 900),
-    },
-    {
       title: 'Funders and foundations',
       body: 'Portfolio evidence, learning and funding intelligence across grants.',
       href: '/solutions/funders',
       image: photo('programmeReview', 900),
-    },
-    {
-      title: 'Universities and think tanks',
-      body: 'Research that reaches policy and practice, with the impact trail to prove it.',
-      href: '/solutions/research',
-      image: photo('researchers', 900),
     },
     {
       title: 'Regional and multilateral bodies',
@@ -179,8 +169,9 @@ export const flagship = {
   body: 'A first engagement takes a controlled set of public outputs through the full chain: registration, translation, approval, release and measurement. That keeps sensitivity low and delivers visible value early. Once the chain holds under real volume and real governance, the same configuration extends to other departments, agencies, universities and donor-funded programmes without rebuilding the core.',
   cta: 'See the pilot path',
   href: '/get-started/pilot',
+  // Photo by Christina @ wocintechchat.com on Unsplash
   image: {
-    src: 'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80',
+    src: 'https://images.unsplash.com/photo-1573496130407-57329f01f769?auto=format&fit=crop&w=1200&q=80',
     alt: 'National institution briefing room',
   },
 } as const;

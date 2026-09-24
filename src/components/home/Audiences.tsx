@@ -37,7 +37,7 @@ export default function Audiences() {
               minWidth: 0,
               display: 'block',
               textDecoration: 'none',
-              borderRadius: 4,
+              borderRadius: '5px',
               overflow: 'hidden',
               border: `1px solid ${brand.line}`,
               backgroundColor: '#ffffff',

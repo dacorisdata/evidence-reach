@@ -21,7 +21,6 @@ export default function ContactPage() {
         title={contactHero.title}
         intro={contactHero.intro}
         image={contactHero.image}
-        cta={contactHero.cta}
       />
 
       <Section>

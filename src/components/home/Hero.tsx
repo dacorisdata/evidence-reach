@@ -17,7 +17,7 @@ export default function Hero() {
       component="section"
       sx={{
         position: 'relative',
-        minHeight: '100vh',
+        minHeight: { xs: 'calc(100vh - 72px)', md: 'calc(100vh - 110px)' },
         display: 'flex',
         alignItems: 'flex-end',
         overflow: 'hidden',

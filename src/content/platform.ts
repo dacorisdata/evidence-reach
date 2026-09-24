@@ -34,7 +34,7 @@ export const moduleCategories: ModuleCategory[] = [
     key: 'leadership',
     label: 'Leadership visibility',
     image: {
-      src: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80',
+      src: 'https://images.unsplash.com/photo-1739298061740-5ed03045b280?auto=format&fit=crop&w=1200&q=80',
       alt: 'Working session reviewing programme results',
     },
     modules: [
@@ -47,7 +47,7 @@ export const moduleCategories: ModuleCategory[] = [
     key: 'registry',
     label: 'Registry control',
     image: {
-      src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80',
+      src: 'https://images.unsplash.com/photo-1787532378729-fe4241197405?auto=format&fit=crop&w=1200&q=80',
       alt: 'Team registering institutional documents',
     },
     modules: [
@@ -62,7 +62,7 @@ export const moduleCategories: ModuleCategory[] = [
     key: 'communication',
     label: 'Communication production',
     image: {
-      src: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80',
+      src: 'https://images.unsplash.com/photo-1573164574511-73c773193279?auto=format&fit=crop&w=1200&q=80',
       alt: 'Communications team drafting a policy brief',
     },
     modules: [
@@ -74,7 +74,7 @@ export const moduleCategories: ModuleCategory[] = [
     key: 'publication',
     label: 'Publication management',
     image: {
-      src: 'https://images.unsplash.com/photo-1591115765373-5207764f72e7?auto=format&fit=crop&w=1200&q=80',
+      src: 'https://images.unsplash.com/photo-1653566031535-bcf33e1c2893?auto=format&fit=crop&w=1200&q=80',
       alt: 'Public release of institutional information',
     },
     modules: [
@@ -167,7 +167,7 @@ export const architecture = {
   eyebrow: 'Architecture',
   line: 'Built to scale, public data first - begin with a controlled public-output demonstration and expand to institutional scale, with private cloud, on-premise or Kenya-hosted deployment where governance requires it.',
   image: {
-    src: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=2000&q=80',
+    src: 'https://images.unsplash.com/photo-1653565685060-e15e492a7fda?auto=format&fit=crop&w=2000&q=80',
     alt: 'Team working through a process on a whiteboard',
   } satisfies ImageRef,
 } as const;
@@ -204,7 +204,7 @@ export const impactHero = {
   intro:
     'DER tracks what happens after publication, connecting communication outputs to real-world use, follow-through and institutional value - an altmetrics-style evidence-to-impact layer tailored for institutional reports, statistics, grey literature and datasets, not only journal articles.',
   image: {
-    src: 'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=2400&q=80',
+    src: 'https://images.unsplash.com/photo-1758876201660-103984519266?auto=format&fit=crop&w=2400&q=80',
     alt: 'Analytics dashboard displayed on a laptop screen',
   } satisfies ImageRef,
 } as const;

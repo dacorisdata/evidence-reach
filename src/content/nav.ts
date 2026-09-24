@@ -126,11 +126,12 @@ export const mainNav: NavItem[] = [
         href: '/about',
         blurb: 'Why EvidenceReach exists, and where it sits in the DACORIS Group.',
       },
-      {
-        label: 'Team',
-        href: '/team',
-        blurb: 'The people behind the platform.',
-      },
+      // Team hidden from the menu for now; the /team page still exists.
+      // {
+      //   label: 'Team',
+      //   href: '/team',
+      //   blurb: 'The people behind the platform.',
+      // },
       {
         label: 'Contact',
         href: '/contact',
@@ -140,43 +141,15 @@ export const mainNav: NavItem[] = [
   },
 ];
 
+// Kept deliberately short: the main menu carries the full page list.
 export const footerNav = [
   {
-    title: 'Platform',
+    title: 'Explore',
     links: [
-      { label: 'Overview', href: '/platform' },
-      { label: 'How DER fits', href: '/platform/how-der-fits' },
-      { label: 'Impact intelligence', href: '/platform/impact' },
-      { label: 'Markets', href: '/platform/markets' },
-      { label: 'Integrations and standards', href: '/platform/integrations' },
-      { label: 'Trust and responsible AI', href: '/platform/trust' },
-    ],
-  },
-  {
-    title: 'Solutions',
-    links: [
-      { label: 'Government ministries', href: '/solutions/ministries' },
-      { label: 'Statistics offices', href: '/solutions/statistics' },
-      { label: 'NGOs and implementers', href: '/solutions/ngos' },
-      { label: 'Funders and foundations', href: '/solutions/funders' },
-      { label: 'Universities and think tanks', href: '/solutions/research' },
-      { label: 'Regional and multilateral', href: '/solutions/regional' },
-    ],
-  },
-  {
-    title: 'Get started',
-    links: [
+      { label: 'Platform', href: '/platform' },
+      { label: 'Solutions', href: '/solutions' },
       { label: 'Packages', href: '/get-started/packages' },
       { label: 'Start with a pilot', href: '/get-started/pilot' },
-      { label: 'Implementation', href: '/implementation' },
-      { label: 'Request a demo', href: '/contact' },
-    ],
-  },
-  {
-    title: 'Resources',
-    links: [
-      { label: 'FAQ', href: '/faq' },
-      { label: 'News', href: '/news' },
     ],
   },
   {
@@ -184,10 +157,16 @@ export const footerNav = [
     links: [
       { label: 'About', href: '/about' },
       { label: 'Team', href: '/team' },
-      { label: 'Contact', href: '/contact' },
+      { label: 'News', href: '/news' },
+      { label: 'FAQ', href: '/faq' },
+    ],
+  },
+  {
+    title: 'Get in touch',
+    links: [
+      { label: 'Request a demo', href: '/contact' },
       { label: 'Privacy notice', href: '/privacy' },
       { label: 'Terms of use', href: '/terms' },
-      { label: 'www.dacoris.com', href: 'https://www.dacoris.com' },
     ],
   },
 ];

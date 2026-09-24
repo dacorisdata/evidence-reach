@@ -70,7 +70,7 @@ export default function NewsArticlePage({ article }: NewsArticlePageProps) {
           sx={{
             position: 'relative',
             aspectRatio: '16 / 9',
-            borderRadius: 3,
+            borderRadius: '5px',
             overflow: 'hidden',
             mb: 4,
             border: `1px solid ${brand.line}`,

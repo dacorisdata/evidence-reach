@@ -45,7 +45,7 @@ export default function AdvisoryStrip() {
                 alignItems: 'center',
                 gap: 1.75,
                 p: 2,
-                borderRadius: 3,
+                borderRadius: '5px',
                 border: '1px solid rgba(255,255,255,0.12)',
                 backgroundColor: 'rgba(255,255,255,0.03)',
               }}

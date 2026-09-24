@@ -47,7 +47,7 @@ export default function ContactInfoPanel() {
         </Box>
       </Box>
 
-      <Box sx={{ p: 3, borderRadius: 3, backgroundColor: brand.surface, border: `1px solid ${brand.line}` }}>
+      <Box sx={{ p: 3, borderRadius: '5px', backgroundColor: brand.surface, border: `1px solid ${brand.line}` }}>
         <Typography variant="overline" sx={{ color: brand.greenInk, display: 'block', mb: 1 }}>
           {whatToExpect.eyebrow}
         </Typography>

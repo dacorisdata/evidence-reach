@@ -11,7 +11,7 @@ export default function ImageBreak() {
         <Box
           sx={{
             position: 'relative',
-            borderRadius: 4,
+            borderRadius: '5px',
             overflow: 'hidden',
             height: { xs: 260, md: 360 },
           }}

@@ -5,8 +5,9 @@ export const teamHero = {
   title: 'The people building evidence infrastructure for public institutions.',
   intro:
     'A small, deliberately cross-disciplinary team - data systems, governance, product and public policy - working from Nairobi with institutions across the region.',
+  // Photo by UK Black Tech on Unsplash
   image: {
-    src: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2400&q=80',
+    src: 'https://images.unsplash.com/photo-1653566031587-74f7d86a2e71?auto=format&fit=crop&w=2400&q=80',
     alt: 'Team working together around a table with laptops and notes',
   },
 } as const;
@@ -50,8 +51,9 @@ export const leadership = [
     name: 'Amina Odhiambo',
     role: 'Founder & Chief Executive',
     bio: 'Fifteen years leading data systems for national statistics offices before founding DACORIS to close the gap between publication and public value.',
+    // Photo by Christina @ wocintechchat.com on Unsplash
     image: {
-      src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80',
+      src: 'https://images.unsplash.com/photo-1573497161161-c3e73707e25c?auto=format&fit=crop&w=800&q=80',
       alt: 'Portrait of Amina Odhiambo',
     },
   },
@@ -59,8 +61,9 @@ export const leadership = [
     name: 'Brian Kiptoo',
     role: 'Head of Product',
     bio: 'Shapes how evidence becomes communication - from policy briefs to donor-ready releases audiences actually open.',
+    // Photo by tekimax on Unsplash
     image: {
-      src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80',
+      src: 'https://images.unsplash.com/photo-1588178454780-441fa5b99fa5?auto=format&fit=crop&w=800&q=80',
       alt: 'Portrait of Brian Kiptoo',
     },
   },
@@ -68,8 +71,9 @@ export const leadership = [
     name: 'Wanjiru Njeri',
     role: 'Head of Governance & Assurance',
     bio: 'Designs the approval hierarchies and audit trails that let institutions publish with confidence, not caution.',
+    // Photo by Christina @ wocintechchat.com on Unsplash
     image: {
-      src: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
+      src: 'https://images.unsplash.com/photo-1573497491765-dccce02b29df?auto=format&fit=crop&w=800&q=80',
       alt: 'Portrait of Wanjiru Njeri',
     },
   },
@@ -77,8 +81,9 @@ export const leadership = [
     name: 'David Mensah',
     role: 'Head of Engineering',
     bio: 'Builds the registry, release pipeline and impact-intelligence infrastructure that runs underneath every product.',
+    // Photo by Olawale Munna on Unsplash
     image: {
-      src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80',
+      src: 'https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=800&q=80',
       alt: 'Portrait of David Mensah',
     },
   },
@@ -86,8 +91,9 @@ export const leadership = [
     name: 'Fatima Al-Hassan',
     role: 'Head of Impact Intelligence',
     bio: 'Turns attention, uptake and follow-through signals into evidence institutions can bring back to their funders.',
+    // Photo by Christina @ wocintechchat.com on Unsplash
     image: {
-      src: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80',
+      src: 'https://images.unsplash.com/photo-1573497491207-618cc224f243?auto=format&fit=crop&w=800&q=80',
       alt: 'Portrait of Fatima Al-Hassan',
     },
   },
@@ -95,8 +101,9 @@ export const leadership = [
     name: 'Samuel Otieno',
     role: 'Partnerships & Government Relations',
     bio: 'Works with ministries, donors and universities to scope first engagements and plan the path to scale.',
+    // Photo by Tau Mor on Unsplash
     image: {
-      src: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80',
+      src: 'https://images.unsplash.com/photo-1610903866883-c280999dcc0e?auto=format&fit=crop&w=800&q=80',
       alt: 'Portrait of Samuel Otieno',
     },
   },

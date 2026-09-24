@@ -18,7 +18,7 @@ export default function PitchBand({ eyebrow, line, body }: PitchBandProps) {
       <Reveal>
         <Box
           sx={{
-            borderRadius: 5,
+            borderRadius: '5px',
             backgroundColor: brand.footer,
             px: { xs: 3.5, md: 7 },
             py: { xs: 5, md: 7 },

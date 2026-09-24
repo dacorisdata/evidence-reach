@@ -29,7 +29,7 @@ export default function LegalDocument({ updated, draftNotice, intro, sections }:
               alignItems: 'flex-start',
               p: 2,
               mb: 4,
-              borderRadius: 3,
+              borderRadius: '5px',
               backgroundColor: brand.mintWash,
               border: `1px solid ${brand.mintLine}`,
             }}

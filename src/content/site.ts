@@ -6,8 +6,8 @@ export const site = {
   description:
     'DACORIS EvidenceReach turns institutional evidence into targeted communication, governed dissemination and measurable impact.',
   url: 'https://evidencereach.dacoris.com',
-  phone: '+254 732 436199',
-  phoneHref: 'tel:+254732436199',
+  phone: '020 2240240',
+  phoneHref: 'tel:0202240240',
   email: 'info@dacoris.com',
   emailHref: 'mailto:info@dacoris.com',
   address: 'Strathmore University, Nairobi',

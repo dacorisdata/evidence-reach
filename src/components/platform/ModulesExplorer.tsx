@@ -26,7 +26,7 @@ export default function ModulesExplorer() {
               onClick={() => setActiveKey(category.key)}
               sx={{
                 border: `1px solid ${isActive ? brand.green : brand.line}`,
-                borderRadius: 999,
+                borderRadius: '5px',
                 px: 2,
                 py: 0.9,
                 cursor: 'pointer',
@@ -52,7 +52,7 @@ export default function ModulesExplorer() {
               position: 'relative',
               width: '100%',
               aspectRatio: '4 / 3',
-              borderRadius: 4,
+              borderRadius: '5px',
               overflow: 'hidden',
               border: `1px solid ${brand.line}`,
             }}

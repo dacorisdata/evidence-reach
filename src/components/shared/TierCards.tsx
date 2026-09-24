@@ -38,7 +38,7 @@ export default function TierCards({ tiers }: TierCardsProps) {
                 display: 'flex',
                 flexDirection: 'column',
                 p: 3.5,
-                borderRadius: 4,
+                borderRadius: '5px',
                 border: `1px solid ${brand.line}`,
                 backgroundColor: '#ffffff',
                 borderTop: `4px solid ${tone.main}`,
@@ -60,7 +60,7 @@ export default function TierCards({ tiers }: TierCardsProps) {
                   </Box>
                 ))}
               </Box>
-              <Box sx={{ mt: 'auto', p: 2, borderRadius: 3, backgroundColor: tone.wash }}>
+              <Box sx={{ mt: 'auto', p: 2, borderRadius: '5px', backgroundColor: tone.wash }}>
                 <Typography sx={{ ...labelStyle, color: tone.main }}>Commercial outcome</Typography>
                 <Typography sx={{ fontSize: '0.92rem', fontWeight: 600, color: brand.ink, lineHeight: 1.5 }}>
                   {tier.outcome}

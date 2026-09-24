@@ -235,7 +235,7 @@ export default function Navbar() {
                     maxWidth: 320,
                     textDecoration: 'none',
                     p: 1.75,
-                    borderRadius: 2,
+                    borderRadius: '5px',
                     border: '1px solid transparent',
                     transition: 'background-color 140ms ease, border-color 140ms ease',
                     '&:hover': {
@@ -272,7 +272,7 @@ export default function Navbar() {
                   textDecoration: 'none',
                   backgroundColor: brand.mintWash,
                   border: `1px solid ${brand.mintLine}`,
-                  borderRadius: 3,
+                  borderRadius: '5px',
                   p: 2.5,
                   display: 'flex',
                   flexDirection: 'column',

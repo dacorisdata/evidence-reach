@@ -46,7 +46,7 @@ function NewsCard({ item }: { item: NewsItem }) {
         display: 'flex',
         flexDirection: 'column',
         height: '100%',
-        borderRadius: 3,
+        borderRadius: '5px',
         border: `1px solid ${brand.line}`,
         backgroundColor: brand.surface,
         overflow: 'hidden',
@@ -143,7 +143,7 @@ export default function NewsListing() {
     <Box
       sx={{
         p: 2.5,
-        borderRadius: 3,
+        borderRadius: '5px',
         border: `1px solid ${brand.line}`,
         backgroundColor: brand.surface,
       }}
@@ -207,7 +207,7 @@ export default function NewsListing() {
         sx={{
           maxWidth: 720,
           p: { xs: 3, md: 5 },
-          borderRadius: 4,
+          borderRadius: '5px',
           border: `1px solid ${brand.line}`,
           backgroundColor: brand.surface,
         }}
@@ -249,7 +249,7 @@ export default function NewsListing() {
           <Box
             sx={{
               p: { xs: 3, md: 4 },
-              borderRadius: 3,
+              borderRadius: '5px',
               border: `1px solid ${brand.line}`,
               backgroundColor: brand.surface,
             }}

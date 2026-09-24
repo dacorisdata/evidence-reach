@@ -20,7 +20,7 @@ export default function TeamCard({ name, role, bio, image }: TeamCardProps) {
         minWidth: 0,
         maxWidth: 380,
         position: 'relative',
-        borderRadius: 4,
+        borderRadius: '5px',
         overflow: 'hidden',
         aspectRatio: '3 / 4',
         cursor: 'default',

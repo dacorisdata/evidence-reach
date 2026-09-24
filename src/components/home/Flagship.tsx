@@ -16,7 +16,7 @@ export default function Flagship() {
           flexWrap: 'wrap',
           gap: { xs: 4, md: 6 },
           alignItems: 'center',
-          borderRadius: 4,
+          borderRadius: '5px',
           border: `1px solid ${brand.line}`,
           overflow: 'hidden',
         }}

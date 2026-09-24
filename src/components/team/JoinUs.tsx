@@ -19,7 +19,7 @@ export default function JoinUs() {
     >
       <Box
         sx={{
-          borderRadius: 5,
+          borderRadius: '5px',
           border: `1px solid ${brand.line}`,
           px: { xs: 3.5, md: 6 },
           py: { xs: 5, md: 6 },

@@ -6,8 +6,9 @@ export const aboutHero = {
   title: 'DACORIS EvidenceReach',
   intro:
     'A DACORIS Group company that turns research, statistics and reports into governed communication - and measurable impact.',
+  // Photo by Ninthgrid on Unsplash
   image: {
-    src: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2400&q=80',
+    src: 'https://images.unsplash.com/photo-1739302750702-e26a61113758?auto=format&fit=crop&w=2400&q=80',
     alt: 'A team celebrating a milestone around a laptop in a bright office',
   },
 } as const;
@@ -16,8 +17,9 @@ export const identity = {
   eyebrow: 'The problem',
   title: 'Evidence that never left the shelf.',
   body: 'Valuable evidence sits in disconnected repositories and long reports, reaching almost no one. DER connects it to audiences, channels, approvals and impact indicators - so it moves from storage to public value.',
+  // Photo by Christina @ wocintechchat.com on Unsplash
   image: {
-    src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
+    src: 'https://images.unsplash.com/photo-1573164574397-dd250bc8a598?auto=format&fit=crop&w=1200&q=80',
     alt: 'Colleagues reviewing a printed report together at a desk',
   },
 } as const;
@@ -119,7 +121,7 @@ export const mission = {
     'Before DACORIS, our founding team worked inside the institutions EvidenceReach now serves.',
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1200&q=80',
+    src: 'https://images.unsplash.com/photo-1573167627769-e201a7ddf409?auto=format&fit=crop&w=1200&q=80',
     alt: 'Colleagues reviewing a report together around a laptop',
   },
 } as const;

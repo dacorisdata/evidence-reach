@@ -30,7 +30,7 @@ export default function SolutionsLinks() {
                 height: '100%',
                 textDecoration: 'none',
                 p: 3,
-                borderRadius: 3,
+                borderRadius: '5px',
                 border: `1px solid ${brand.line}`,
                 backgroundColor: '#ffffff',
                 transition: 'border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease',

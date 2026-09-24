@@ -17,7 +17,7 @@ export default function DifferentiatorCard({ title, body }: DifferentiatorCardPr
         display: 'flex',
         gap: 1.5,
         p: 3,
-        borderRadius: 3,
+        borderRadius: '5px',
         border: `1px solid ${brand.line}`,
         backgroundColor: '#ffffff',
         transition: 'border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease',

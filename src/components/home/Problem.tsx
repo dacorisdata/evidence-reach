@@ -17,7 +17,7 @@ export default function Problem() {
               position: 'relative',
               width: '100%',
               aspectRatio: '4 / 3',
-              borderRadius: 4,
+              borderRadius: '5px',
               overflow: 'hidden',
               border: `1px solid ${brand.line}`,
             }}

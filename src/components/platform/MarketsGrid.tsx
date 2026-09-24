@@ -25,7 +25,7 @@ export default function MarketsGrid() {
           <Reveal key={item.title} delay={index * 70} sx={{ flex: '1 1 260px', minWidth: 0 }}>
             <Box
               sx={{
-                borderRadius: 4,
+                borderRadius: '5px',
                 overflow: 'hidden',
                 border: `1px solid ${brand.line}`,
                 backgroundColor: '#ffffff',

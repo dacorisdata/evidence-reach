@@ -12,7 +12,7 @@ export default function StatsBand({ stats, caption }: StatsBandProps) {
   return (
     <Box
       sx={{
-        borderRadius: 4,
+        borderRadius: '5px',
         border: `1px solid ${brand.line}`,
         backgroundColor: brand.surface,
         px: { xs: 3, md: 5 },

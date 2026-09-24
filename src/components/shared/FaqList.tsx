@@ -27,7 +27,7 @@ export default function FaqList({ items }: FaqListProps) {
           sx={{
             boxShadow: 'none',
             border: `1px solid ${brand.line}`,
-            borderRadius: '16px !important',
+            borderRadius: '5px !important',
             backgroundColor: '#ffffff',
             '&::before': { display: 'none' },
             '&.Mui-expanded': { borderColor: brand.mintLine },

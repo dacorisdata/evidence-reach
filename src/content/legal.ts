@@ -23,7 +23,7 @@ export const privacySections: readonly LegalSection[] = [
   {
     heading: 'Who we are',
     paragraphs: [
-      'DACORIS EvidenceReach is a DACORIS Group product based at Strathmore University, Nairobi. We are responsible for personal data collected through this website. You can reach us at info@dacoris.com or +254 732 436199.',
+      'DACORIS EvidenceReach is a DACORIS Group product based at Strathmore University, Nairobi. We are responsible for personal data collected through this website. You can reach us at info@dacoris.com or 020 2240240.',
     ],
   },
   {
