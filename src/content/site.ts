@@ -5,7 +5,7 @@ export const site = {
   tagline: 'Evidence into reach. Data into action.',
   description:
     'DACORIS EvidenceReach turns institutional evidence into targeted communication, governed dissemination and measurable impact.',
-  url: 'https://evidencereach.dacoris.com',
+  url: 'https://e4impact.dacoris.com',
   phone: '020 2240240',
   phoneHref: 'tel:0202240240',
   email: 'info@dacoris.com',
