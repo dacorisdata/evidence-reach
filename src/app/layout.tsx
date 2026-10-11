@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Box from '@mui/material/Box';
 import ThemeRegistry from '@/components/ThemeRegistry';
+import AnnouncementBar from '@/components/layout/AnnouncementBar';
 import TopBar from '@/components/layout/TopBar';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           >
             Skip to content
           </Box>
+          <AnnouncementBar />
           <TopBar />
           <Navbar />
           <Box component="main" id="main">

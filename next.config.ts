@@ -1,6 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // Lets client components start from the same clock the static pages were built with
+  // (avoids hydration mismatches for time-based UI such as careers deadlines).
+  env: {
+    NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
+  },
   images: {
     remotePatterns: [
       {

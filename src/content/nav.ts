@@ -116,6 +116,11 @@ export const mainNav: NavItem[] = [
         href: '/news',
         blurb: 'Updates from DACORIS EvidenceReach.',
       },
+      {
+        label: 'Careers',
+        href: '/careers',
+        blurb: 'Jobs, sales partnerships and other opportunities to work with us.',
+      },
     ],
   },
   {
@@ -158,6 +163,7 @@ export const footerNav = [
       { label: 'About', href: '/about' },
       { label: 'Team', href: '/team' },
       { label: 'News', href: '/news' },
+      { label: 'Careers', href: '/careers' },
       { label: 'FAQ', href: '/faq' },
     ],
   },

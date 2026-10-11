@@ -64,6 +64,11 @@ export const resourcesLinks: readonly LinkCard[] = [
     blurb: 'Public Data API, OAI-PMH harvesting and DCAT catalogue metadata.',
   },
   {
+    label: 'Careers and opportunities',
+    href: '/careers',
+    blurb: 'Open jobs and sales partnership calls, with downloadable adverts.',
+  },
+  {
     label: 'About DACORIS EvidenceReach',
     href: '/about',
     blurb: 'Why EvidenceReach exists and where it sits in the DACORIS Group.',

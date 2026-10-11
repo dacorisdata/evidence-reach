@@ -1,4 +1,5 @@
 import Hero from '@/components/home/Hero';
+import HiringBand from '@/components/home/HiringBand';
 import InstitutionStrip from '@/components/home/InstitutionStrip';
 import Problem from '@/components/home/Problem';
 import PlatformOs from '@/components/home/PlatformOs';
@@ -14,6 +15,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <HiringBand />
       <InstitutionStrip />
       <Problem />
       <PlatformOs />
