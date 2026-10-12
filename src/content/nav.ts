@@ -163,7 +163,7 @@ export const footerNav = [
       { label: 'About', href: '/about' },
       { label: 'Team', href: '/team' },
       { label: 'News', href: '/news' },
-      { label: 'Careers', href: '/careers' },
+      { label: 'Jobs and Careers', href: '/careers' },
       { label: 'FAQ', href: '/faq' },
     ],
   },
